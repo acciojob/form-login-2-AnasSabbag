@@ -7,7 +7,7 @@ function handleSubmit() {
 	const email=document.getElementById("email").value;
 
 	
-	const alrt=`First Name: ${fName} Last Name: ${lName} Phone Number: ${phone} Email ID: ${email}`;
+	const alrt=`First Name: ${fName}\nLast Name: ${lName} \nPhone Number: ${phone} \nEmail ID: ${email}\n`;
 	alert(alrt);
 	
 }
