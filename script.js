@@ -1,13 +1,13 @@
 //your JS code here. If required.
 
 function handleSubmit() {
-	const fName=document.getElementById("first-name").value;
-	const lName=document.getElementById("last-name").value;
-	const phone=document.getElementById("phone").value;
-	const email=document.getElementById("email").value;
-
+	let fName=form.querySelector('[name="First Name"]').value;
+	let lName=form.querySelector('[name="Last Name"]').value;
+	let phone=form.querySelector('[name="Phone Number"]').value;
+	let email=form.querySelector('[name="Email ID"]').value;
 	
-	const alrt=`First Name: ${fName}\nLast Name: ${lName} \nPhone Number: ${phone} \nEmail ID: ${email}\n`;
-	alert(alrt);
+
+	alert(`First Name: ${fName}\nLast Name: ${lName} \nPhone Number: ${phone} \nEmail ID: ${email}`);
+	
 	
 }
